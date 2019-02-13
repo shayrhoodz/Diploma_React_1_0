@@ -11,7 +11,18 @@ export default class ItemDetails extends Component {
     const arr = this.props.location.state;
     console.log(arr);
     return(
-      <section className="shop">
+        <> 
+        <div className="banner">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6">
+            <Header />
+            </div>
+          </div>
+          <h1 className="title-big">Our Coffee</h1>
+        </div>
+      </div>
+        <section className="shop">
         <div className="container">
             <div className="row">
                 <div className="col-lg-5 offset-1">
@@ -19,7 +30,7 @@ export default class ItemDetails extends Component {
                 </div>
                 <div className="col-lg-4">
                     <div className="title">About it</div>
-                    <img className="beanslogo" src= {process.env.PUBLIC_URL + `/img/Beans.png`} alt="Beans logo"/>
+                    <img className="beanslogo" src= {process.env.PUBLIC_URL + `/img/logo/Beans_logo_dark.svg`} alt="Beans logo"/>
                     <div className="shop__point">
                         <span>Country:</span>
                         {arr.country}
@@ -36,6 +47,7 @@ export default class ItemDetails extends Component {
             </div>
         </div>
       </section>
+      </>
     )
   }
 }
