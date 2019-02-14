@@ -9,7 +9,7 @@ export default class ItemDetails extends Component {
   render() {
 
     const arr = this.props.location.state;
-    console.log(arr);
+    // console.log(arr);
     return(
         <> 
         <div className="banner">

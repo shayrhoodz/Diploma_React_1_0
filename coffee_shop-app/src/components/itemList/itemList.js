@@ -35,13 +35,10 @@ class ItemList extends Component {
               })
           })
           .catch(this.onError);
-          console.log(this.state.itemList);
-          console.log(this.onError);
   }
 
   renderCoffee(arr) {
     const {name, loading} = this.state;
-    console.log(arr);
 
     if(loading) {
       return <Spinner />
@@ -79,12 +76,12 @@ class ItemList extends Component {
       return items
     }
     
-    return items.filter( (item) => {
+    return items.filter((item) => {
       return item.name.toLowerCase().indexOf(term.toLowerCase()) > -1 // если не чего не найдено, будет возвращено -1
     })
   }
 
-  filterPost(items, filter) {
+  filterPost(items, filter = '') {
     if(filter !== '') {
       const newArray = items.filter(item => item.country === filter);
       return newArray;
@@ -97,7 +94,6 @@ class ItemList extends Component {
 
     const {itemList, error} = this.state;
     const {term, filter} = this.props;
-    console.log(error);
     
     if (itemList === '') {
         return null

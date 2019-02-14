@@ -1,0 +1,2342 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing <CoffeePage/> Testing snap & state CoffeePage have rendered correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CoffeePage />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <div
+          className="banner"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-lg-6"
+              >
+                <Header />
+              </div>
+            </div>
+            <h1
+              className="title-big"
+            >
+              Our Coffee
+            </h1>
+          </div>
+        </div>,
+        <section
+          className="shop"
+        >
+          <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-lg-4 offset-2"
+              >
+                <img
+                  alt="girl"
+                  className="shop__girl"
+                  src="img/coffee_girl.jpg"
+                />
+              </div>
+              <div
+                className="col-lg-4"
+              >
+                <div
+                  className="title"
+                >
+                  About our beans
+                </div>
+                <img
+                  alt="Beans logo"
+                  className="beanslogo"
+                  src="img/logo/Beans_logo_dark.svg"
+                />
+                <div
+                  className="shop__text"
+                >
+                  Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                  <br />
+                  <br />
+                  Afraid at highly months do things on at. Situation recommend objection do intention
+                  <br />
+                  so questions. 
+                  <br />
+                  As greatly removed calling pleased improve an. Last ask him cold feel
+                  <br />
+                  met spot shy want. Children me laughing we prospect answered followed. At it went
+                  <br />
+                  is song that held help face.
+                </div>
+              </div>
+            </div>
+            <div
+              className="line"
+            />
+            <div
+              className="row"
+            >
+              <div
+                className="col-lg-4 offset-2"
+              >
+                <form
+                  action="#"
+                  className="shop__search"
+                >
+                  <label
+                    className="shop__search-label"
+                    htmlFor="filter"
+                  >
+                    Looking for
+                  </label>
+                  <SearchPanel
+                    onUpdateSearch={[Function]}
+                  />
+                </form>
+              </div>
+              <div
+                className="col-lg-4"
+              >
+                <div
+                  className="shop__filter"
+                >
+                  <div
+                    className="shop__filter-label"
+                  >
+                    Or filter
+                  </div>
+                  <div
+                    className="shop__filter-group"
+                  >
+                    <button
+                      className="shop__filter-btn"
+                      onClick={[Function]}
+                    >
+                      Brazil
+                    </button>
+                    <button
+                      className="shop__filter-btn"
+                      onClick={[Function]}
+                    >
+                      Kenya
+                    </button>
+                    <button
+                      className="shop__filter-btn"
+                      onClick={[Function]}
+                    >
+                      Columbia
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="row"
+            >
+              <div
+                className="col-lg-10 offset-lg-1"
+              >
+                <div
+                  className="shop__wrapper"
+                >
+                  <withRouter(ItemList)
+                    filter=""
+                    getData={[Function]}
+                    term=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-lg-6"
+              >
+                <Header />
+              </div>
+            </div>
+            <h1
+              className="title-big"
+            >
+              Our Coffee
+            </h1>
+          </div>,
+          "className": "banner",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-6"
+                >
+                  <Header />
+                </div>
+              </div>,
+              <h1
+                className="title-big"
+              >
+                Our Coffee
+              </h1>,
+            ],
+            "className": "container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="col-lg-6"
+                >
+                  <Header />
+                </div>,
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Header />,
+                  "className": "col-lg-6",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {},
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Our Coffee",
+                "className": "title-big",
+              },
+              "ref": null,
+              "rendered": "Our Coffee",
+              "type": "h1",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="container"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-lg-4 offset-2"
+              >
+                <img
+                  alt="girl"
+                  className="shop__girl"
+                  src="img/coffee_girl.jpg"
+                />
+              </div>
+              <div
+                className="col-lg-4"
+              >
+                <div
+                  className="title"
+                >
+                  About our beans
+                </div>
+                <img
+                  alt="Beans logo"
+                  className="beanslogo"
+                  src="img/logo/Beans_logo_dark.svg"
+                />
+                <div
+                  className="shop__text"
+                >
+                  Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                  <br />
+                  <br />
+                  Afraid at highly months do things on at. Situation recommend objection do intention
+                  <br />
+                  so questions. 
+                  <br />
+                  As greatly removed calling pleased improve an. Last ask him cold feel
+                  <br />
+                  met spot shy want. Children me laughing we prospect answered followed. At it went
+                  <br />
+                  is song that held help face.
+                </div>
+              </div>
+            </div>
+            <div
+              className="line"
+            />
+            <div
+              className="row"
+            >
+              <div
+                className="col-lg-4 offset-2"
+              >
+                <form
+                  action="#"
+                  className="shop__search"
+                >
+                  <label
+                    className="shop__search-label"
+                    htmlFor="filter"
+                  >
+                    Looking for
+                  </label>
+                  <SearchPanel
+                    onUpdateSearch={[Function]}
+                  />
+                </form>
+              </div>
+              <div
+                className="col-lg-4"
+              >
+                <div
+                  className="shop__filter"
+                >
+                  <div
+                    className="shop__filter-label"
+                  >
+                    Or filter
+                  </div>
+                  <div
+                    className="shop__filter-group"
+                  >
+                    <button
+                      className="shop__filter-btn"
+                      onClick={[Function]}
+                    >
+                      Brazil
+                    </button>
+                    <button
+                      className="shop__filter-btn"
+                      onClick={[Function]}
+                    >
+                      Kenya
+                    </button>
+                    <button
+                      className="shop__filter-btn"
+                      onClick={[Function]}
+                    >
+                      Columbia
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="row"
+            >
+              <div
+                className="col-lg-10 offset-lg-1"
+              >
+                <div
+                  className="shop__wrapper"
+                >
+                  <withRouter(ItemList)
+                    filter=""
+                    getData={[Function]}
+                    term=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>,
+          "className": "shop",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-4 offset-2"
+                >
+                  <img
+                    alt="girl"
+                    className="shop__girl"
+                    src="img/coffee_girl.jpg"
+                  />
+                </div>
+                <div
+                  className="col-lg-4"
+                >
+                  <div
+                    className="title"
+                  >
+                    About our beans
+                  </div>
+                  <img
+                    alt="Beans logo"
+                    className="beanslogo"
+                    src="img/logo/Beans_logo_dark.svg"
+                  />
+                  <div
+                    className="shop__text"
+                  >
+                    Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                    <br />
+                    <br />
+                    Afraid at highly months do things on at. Situation recommend objection do intention
+                    <br />
+                    so questions. 
+                    <br />
+                    As greatly removed calling pleased improve an. Last ask him cold feel
+                    <br />
+                    met spot shy want. Children me laughing we prospect answered followed. At it went
+                    <br />
+                    is song that held help face.
+                  </div>
+                </div>
+              </div>,
+              <div
+                className="line"
+              />,
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-4 offset-2"
+                >
+                  <form
+                    action="#"
+                    className="shop__search"
+                  >
+                    <label
+                      className="shop__search-label"
+                      htmlFor="filter"
+                    >
+                      Looking for
+                    </label>
+                    <SearchPanel
+                      onUpdateSearch={[Function]}
+                    />
+                  </form>
+                </div>
+                <div
+                  className="col-lg-4"
+                >
+                  <div
+                    className="shop__filter"
+                  >
+                    <div
+                      className="shop__filter-label"
+                    >
+                      Or filter
+                    </div>
+                    <div
+                      className="shop__filter-group"
+                    >
+                      <button
+                        className="shop__filter-btn"
+                        onClick={[Function]}
+                      >
+                        Brazil
+                      </button>
+                      <button
+                        className="shop__filter-btn"
+                        onClick={[Function]}
+                      >
+                        Kenya
+                      </button>
+                      <button
+                        className="shop__filter-btn"
+                        onClick={[Function]}
+                      >
+                        Columbia
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>,
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-10 offset-lg-1"
+                >
+                  <div
+                    className="shop__wrapper"
+                  >
+                    <withRouter(ItemList)
+                      filter=""
+                      getData={[Function]}
+                      term=""
+                    />
+                  </div>
+                </div>
+              </div>,
+            ],
+            "className": "container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-lg-4 offset-2"
+                  >
+                    <img
+                      alt="girl"
+                      className="shop__girl"
+                      src="img/coffee_girl.jpg"
+                    />
+                  </div>,
+                  <div
+                    className="col-lg-4"
+                  >
+                    <div
+                      className="title"
+                    >
+                      About our beans
+                    </div>
+                    <img
+                      alt="Beans logo"
+                      className="beanslogo"
+                      src="img/logo/Beans_logo_dark.svg"
+                    />
+                    <div
+                      className="shop__text"
+                    >
+                      Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                      <br />
+                      <br />
+                      Afraid at highly months do things on at. Situation recommend objection do intention
+                      <br />
+                      so questions. 
+                      <br />
+                      As greatly removed calling pleased improve an. Last ask him cold feel
+                      <br />
+                      met spot shy want. Children me laughing we prospect answered followed. At it went
+                      <br />
+                      is song that held help face.
+                    </div>
+                  </div>,
+                ],
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt="girl"
+                      className="shop__girl"
+                      src="img/coffee_girl.jpg"
+                    />,
+                    "className": "col-lg-4 offset-2",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "girl",
+                      "className": "shop__girl",
+                      "src": "img/coffee_girl.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <div
+                        className="title"
+                      >
+                        About our beans
+                      </div>,
+                      <img
+                        alt="Beans logo"
+                        className="beanslogo"
+                        src="img/logo/Beans_logo_dark.svg"
+                      />,
+                      <div
+                        className="shop__text"
+                      >
+                        Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                        <br />
+                        <br />
+                        Afraid at highly months do things on at. Situation recommend objection do intention
+                        <br />
+                        so questions. 
+                        <br />
+                        As greatly removed calling pleased improve an. Last ask him cold feel
+                        <br />
+                        met spot shy want. Children me laughing we prospect answered followed. At it went
+                        <br />
+                        is song that held help face.
+                      </div>,
+                    ],
+                    "className": "col-lg-4",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "About our beans",
+                        "className": "title",
+                      },
+                      "ref": null,
+                      "rendered": "About our beans",
+                      "type": "div",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "Beans logo",
+                        "className": "beanslogo",
+                        "src": "img/logo/Beans_logo_dark.svg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          "Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.",
+                          <br />,
+                          <br />,
+                          "Afraid at highly months do things on at. Situation recommend objection do intention",
+                          <br />,
+                          "so questions. ",
+                          <br />,
+                          "As greatly removed calling pleased improve an. Last ask him cold feel",
+                          <br />,
+                          "met spot shy want. Children me laughing we prospect answered followed. At it went",
+                          <br />,
+                          "is song that held help face.",
+                        ],
+                        "className": "shop__text",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        "Afraid at highly months do things on at. Situation recommend objection do intention",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        "so questions. ",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        "As greatly removed calling pleased improve an. Last ask him cold feel",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        "met spot shy want. Children me laughing we prospect answered followed. At it went",
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {},
+                          "ref": null,
+                          "rendered": null,
+                          "type": "br",
+                        },
+                        "is song that held help face.",
+                      ],
+                      "type": "div",
+                    },
+                  ],
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "line",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="col-lg-4 offset-2"
+                  >
+                    <form
+                      action="#"
+                      className="shop__search"
+                    >
+                      <label
+                        className="shop__search-label"
+                        htmlFor="filter"
+                      >
+                        Looking for
+                      </label>
+                      <SearchPanel
+                        onUpdateSearch={[Function]}
+                      />
+                    </form>
+                  </div>,
+                  <div
+                    className="col-lg-4"
+                  >
+                    <div
+                      className="shop__filter"
+                    >
+                      <div
+                        className="shop__filter-label"
+                      >
+                        Or filter
+                      </div>
+                      <div
+                        className="shop__filter-group"
+                      >
+                        <button
+                          className="shop__filter-btn"
+                          onClick={[Function]}
+                        >
+                          Brazil
+                        </button>
+                        <button
+                          className="shop__filter-btn"
+                          onClick={[Function]}
+                        >
+                          Kenya
+                        </button>
+                        <button
+                          className="shop__filter-btn"
+                          onClick={[Function]}
+                        >
+                          Columbia
+                        </button>
+                      </div>
+                    </div>
+                  </div>,
+                ],
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <form
+                      action="#"
+                      className="shop__search"
+                    >
+                      <label
+                        className="shop__search-label"
+                        htmlFor="filter"
+                      >
+                        Looking for
+                      </label>
+                      <SearchPanel
+                        onUpdateSearch={[Function]}
+                      />
+                    </form>,
+                    "className": "col-lg-4 offset-2",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "action": "#",
+                      "children": Array [
+                        <label
+                          className="shop__search-label"
+                          htmlFor="filter"
+                        >
+                          Looking for
+                        </label>,
+                        <SearchPanel
+                          onUpdateSearch={[Function]}
+                        />,
+                      ],
+                      "className": "shop__search",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Looking for",
+                          "className": "shop__search-label",
+                          "htmlFor": "filter",
+                        },
+                        "ref": null,
+                        "rendered": "Looking for",
+                        "type": "label",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "class",
+                        "props": Object {
+                          "onUpdateSearch": [Function],
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": [Function],
+                      },
+                    ],
+                    "type": "form",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="shop__filter"
+                    >
+                      <div
+                        className="shop__filter-label"
+                      >
+                        Or filter
+                      </div>
+                      <div
+                        className="shop__filter-group"
+                      >
+                        <button
+                          className="shop__filter-btn"
+                          onClick={[Function]}
+                        >
+                          Brazil
+                        </button>
+                        <button
+                          className="shop__filter-btn"
+                          onClick={[Function]}
+                        >
+                          Kenya
+                        </button>
+                        <button
+                          className="shop__filter-btn"
+                          onClick={[Function]}
+                        >
+                          Columbia
+                        </button>
+                      </div>
+                    </div>,
+                    "className": "col-lg-4",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="shop__filter-label"
+                        >
+                          Or filter
+                        </div>,
+                        <div
+                          className="shop__filter-group"
+                        >
+                          <button
+                            className="shop__filter-btn"
+                            onClick={[Function]}
+                          >
+                            Brazil
+                          </button>
+                          <button
+                            className="shop__filter-btn"
+                            onClick={[Function]}
+                          >
+                            Kenya
+                          </button>
+                          <button
+                            className="shop__filter-btn"
+                            onClick={[Function]}
+                          >
+                            Columbia
+                          </button>
+                        </div>,
+                      ],
+                      "className": "shop__filter",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "Or filter",
+                          "className": "shop__filter-label",
+                        },
+                        "ref": null,
+                        "rendered": "Or filter",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            <button
+                              className="shop__filter-btn"
+                              onClick={[Function]}
+                            >
+                              Brazil
+                            </button>,
+                            <button
+                              className="shop__filter-btn"
+                              onClick={[Function]}
+                            >
+                              Kenya
+                            </button>,
+                            <button
+                              className="shop__filter-btn"
+                              onClick={[Function]}
+                            >
+                              Columbia
+                            </button>,
+                          ],
+                          "className": "shop__filter-group",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Brazil",
+                              "className": "shop__filter-btn",
+                              "onClick": [Function],
+                            },
+                            "ref": null,
+                            "rendered": "Brazil",
+                            "type": "button",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Kenya",
+                              "className": "shop__filter-btn",
+                              "onClick": [Function],
+                            },
+                            "ref": null,
+                            "rendered": "Kenya",
+                            "type": "button",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "Columbia",
+                              "className": "shop__filter-btn",
+                              "onClick": [Function],
+                            },
+                            "ref": null,
+                            "rendered": "Columbia",
+                            "type": "button",
+                          },
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="col-lg-10 offset-lg-1"
+                >
+                  <div
+                    className="shop__wrapper"
+                  >
+                    <withRouter(ItemList)
+                      filter=""
+                      getData={[Function]}
+                      term=""
+                    />
+                  </div>
+                </div>,
+                "className": "row",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="shop__wrapper"
+                  >
+                    <withRouter(ItemList)
+                      filter=""
+                      getData={[Function]}
+                      term=""
+                    />
+                  </div>,
+                  "className": "col-lg-10 offset-lg-1",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <withRouter(ItemList)
+                      filter=""
+                      getData={[Function]}
+                      term=""
+                    />,
+                    "className": "shop__wrapper",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {
+                      "filter": "",
+                      "getData": [Function],
+                      "term": "",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "section",
+      },
+    ],
+    "type": Symbol(react.fragment),
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <div
+            className="banner"
+          >
+            <div
+              className="container"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-6"
+                >
+                  <Header />
+                </div>
+              </div>
+              <h1
+                className="title-big"
+              >
+                Our Coffee
+              </h1>
+            </div>
+          </div>,
+          <section
+            className="shop"
+          >
+            <div
+              className="container"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-4 offset-2"
+                >
+                  <img
+                    alt="girl"
+                    className="shop__girl"
+                    src="img/coffee_girl.jpg"
+                  />
+                </div>
+                <div
+                  className="col-lg-4"
+                >
+                  <div
+                    className="title"
+                  >
+                    About our beans
+                  </div>
+                  <img
+                    alt="Beans logo"
+                    className="beanslogo"
+                    src="img/logo/Beans_logo_dark.svg"
+                  />
+                  <div
+                    className="shop__text"
+                  >
+                    Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                    <br />
+                    <br />
+                    Afraid at highly months do things on at. Situation recommend objection do intention
+                    <br />
+                    so questions. 
+                    <br />
+                    As greatly removed calling pleased improve an. Last ask him cold feel
+                    <br />
+                    met spot shy want. Children me laughing we prospect answered followed. At it went
+                    <br />
+                    is song that held help face.
+                  </div>
+                </div>
+              </div>
+              <div
+                className="line"
+              />
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-4 offset-2"
+                >
+                  <form
+                    action="#"
+                    className="shop__search"
+                  >
+                    <label
+                      className="shop__search-label"
+                      htmlFor="filter"
+                    >
+                      Looking for
+                    </label>
+                    <SearchPanel
+                      onUpdateSearch={[Function]}
+                    />
+                  </form>
+                </div>
+                <div
+                  className="col-lg-4"
+                >
+                  <div
+                    className="shop__filter"
+                  >
+                    <div
+                      className="shop__filter-label"
+                    >
+                      Or filter
+                    </div>
+                    <div
+                      className="shop__filter-group"
+                    >
+                      <button
+                        className="shop__filter-btn"
+                        onClick={[Function]}
+                      >
+                        Brazil
+                      </button>
+                      <button
+                        className="shop__filter-btn"
+                        onClick={[Function]}
+                      >
+                        Kenya
+                      </button>
+                      <button
+                        className="shop__filter-btn"
+                        onClick={[Function]}
+                      >
+                        Columbia
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-10 offset-lg-1"
+                >
+                  <div
+                    className="shop__wrapper"
+                  >
+                    <withRouter(ItemList)
+                      filter=""
+                      getData={[Function]}
+                      term=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="container"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-6"
+                >
+                  <Header />
+                </div>
+              </div>
+              <h1
+                className="title-big"
+              >
+                Our Coffee
+              </h1>
+            </div>,
+            "className": "banner",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-lg-6"
+                  >
+                    <Header />
+                  </div>
+                </div>,
+                <h1
+                  className="title-big"
+                >
+                  Our Coffee
+                </h1>,
+              ],
+              "className": "container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="col-lg-6"
+                  >
+                    <Header />
+                  </div>,
+                  "className": "row",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Header />,
+                    "className": "col-lg-6",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "function",
+                    "props": Object {},
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "div",
+                },
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Our Coffee",
+                  "className": "title-big",
+                },
+                "ref": null,
+                "rendered": "Our Coffee",
+                "type": "h1",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="container"
+            >
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-4 offset-2"
+                >
+                  <img
+                    alt="girl"
+                    className="shop__girl"
+                    src="img/coffee_girl.jpg"
+                  />
+                </div>
+                <div
+                  className="col-lg-4"
+                >
+                  <div
+                    className="title"
+                  >
+                    About our beans
+                  </div>
+                  <img
+                    alt="Beans logo"
+                    className="beanslogo"
+                    src="img/logo/Beans_logo_dark.svg"
+                  />
+                  <div
+                    className="shop__text"
+                  >
+                    Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                    <br />
+                    <br />
+                    Afraid at highly months do things on at. Situation recommend objection do intention
+                    <br />
+                    so questions. 
+                    <br />
+                    As greatly removed calling pleased improve an. Last ask him cold feel
+                    <br />
+                    met spot shy want. Children me laughing we prospect answered followed. At it went
+                    <br />
+                    is song that held help face.
+                  </div>
+                </div>
+              </div>
+              <div
+                className="line"
+              />
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-4 offset-2"
+                >
+                  <form
+                    action="#"
+                    className="shop__search"
+                  >
+                    <label
+                      className="shop__search-label"
+                      htmlFor="filter"
+                    >
+                      Looking for
+                    </label>
+                    <SearchPanel
+                      onUpdateSearch={[Function]}
+                    />
+                  </form>
+                </div>
+                <div
+                  className="col-lg-4"
+                >
+                  <div
+                    className="shop__filter"
+                  >
+                    <div
+                      className="shop__filter-label"
+                    >
+                      Or filter
+                    </div>
+                    <div
+                      className="shop__filter-group"
+                    >
+                      <button
+                        className="shop__filter-btn"
+                        onClick={[Function]}
+                      >
+                        Brazil
+                      </button>
+                      <button
+                        className="shop__filter-btn"
+                        onClick={[Function]}
+                      >
+                        Kenya
+                      </button>
+                      <button
+                        className="shop__filter-btn"
+                        onClick={[Function]}
+                      >
+                        Columbia
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row"
+              >
+                <div
+                  className="col-lg-10 offset-lg-1"
+                >
+                  <div
+                    className="shop__wrapper"
+                  >
+                    <withRouter(ItemList)
+                      filter=""
+                      getData={[Function]}
+                      term=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>,
+            "className": "shop",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-lg-4 offset-2"
+                  >
+                    <img
+                      alt="girl"
+                      className="shop__girl"
+                      src="img/coffee_girl.jpg"
+                    />
+                  </div>
+                  <div
+                    className="col-lg-4"
+                  >
+                    <div
+                      className="title"
+                    >
+                      About our beans
+                    </div>
+                    <img
+                      alt="Beans logo"
+                      className="beanslogo"
+                      src="img/logo/Beans_logo_dark.svg"
+                    />
+                    <div
+                      className="shop__text"
+                    >
+                      Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                      <br />
+                      <br />
+                      Afraid at highly months do things on at. Situation recommend objection do intention
+                      <br />
+                      so questions. 
+                      <br />
+                      As greatly removed calling pleased improve an. Last ask him cold feel
+                      <br />
+                      met spot shy want. Children me laughing we prospect answered followed. At it went
+                      <br />
+                      is song that held help face.
+                    </div>
+                  </div>
+                </div>,
+                <div
+                  className="line"
+                />,
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-lg-4 offset-2"
+                  >
+                    <form
+                      action="#"
+                      className="shop__search"
+                    >
+                      <label
+                        className="shop__search-label"
+                        htmlFor="filter"
+                      >
+                        Looking for
+                      </label>
+                      <SearchPanel
+                        onUpdateSearch={[Function]}
+                      />
+                    </form>
+                  </div>
+                  <div
+                    className="col-lg-4"
+                  >
+                    <div
+                      className="shop__filter"
+                    >
+                      <div
+                        className="shop__filter-label"
+                      >
+                        Or filter
+                      </div>
+                      <div
+                        className="shop__filter-group"
+                      >
+                        <button
+                          className="shop__filter-btn"
+                          onClick={[Function]}
+                        >
+                          Brazil
+                        </button>
+                        <button
+                          className="shop__filter-btn"
+                          onClick={[Function]}
+                        >
+                          Kenya
+                        </button>
+                        <button
+                          className="shop__filter-btn"
+                          onClick={[Function]}
+                        >
+                          Columbia
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>,
+                <div
+                  className="row"
+                >
+                  <div
+                    className="col-lg-10 offset-lg-1"
+                  >
+                    <div
+                      className="shop__wrapper"
+                    >
+                      <withRouter(ItemList)
+                        filter=""
+                        getData={[Function]}
+                        term=""
+                      />
+                    </div>
+                  </div>
+                </div>,
+              ],
+              "className": "container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="col-lg-4 offset-2"
+                    >
+                      <img
+                        alt="girl"
+                        className="shop__girl"
+                        src="img/coffee_girl.jpg"
+                      />
+                    </div>,
+                    <div
+                      className="col-lg-4"
+                    >
+                      <div
+                        className="title"
+                      >
+                        About our beans
+                      </div>
+                      <img
+                        alt="Beans logo"
+                        className="beanslogo"
+                        src="img/logo/Beans_logo_dark.svg"
+                      />
+                      <div
+                        className="shop__text"
+                      >
+                        Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                        <br />
+                        <br />
+                        Afraid at highly months do things on at. Situation recommend objection do intention
+                        <br />
+                        so questions. 
+                        <br />
+                        As greatly removed calling pleased improve an. Last ask him cold feel
+                        <br />
+                        met spot shy want. Children me laughing we prospect answered followed. At it went
+                        <br />
+                        is song that held help face.
+                      </div>
+                    </div>,
+                  ],
+                  "className": "row",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt="girl"
+                        className="shop__girl"
+                        src="img/coffee_girl.jpg"
+                      />,
+                      "className": "col-lg-4 offset-2",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "girl",
+                        "className": "shop__girl",
+                        "src": "img/coffee_girl.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        <div
+                          className="title"
+                        >
+                          About our beans
+                        </div>,
+                        <img
+                          alt="Beans logo"
+                          className="beanslogo"
+                          src="img/logo/Beans_logo_dark.svg"
+                        />,
+                        <div
+                          className="shop__text"
+                        >
+                          Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
+                          <br />
+                          <br />
+                          Afraid at highly months do things on at. Situation recommend objection do intention
+                          <br />
+                          so questions. 
+                          <br />
+                          As greatly removed calling pleased improve an. Last ask him cold feel
+                          <br />
+                          met spot shy want. Children me laughing we prospect answered followed. At it went
+                          <br />
+                          is song that held help face.
+                        </div>,
+                      ],
+                      "className": "col-lg-4",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "About our beans",
+                          "className": "title",
+                        },
+                        "ref": null,
+                        "rendered": "About our beans",
+                        "type": "div",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "alt": "Beans logo",
+                          "className": "beanslogo",
+                          "src": "img/logo/Beans_logo_dark.svg",
+                        },
+                        "ref": null,
+                        "rendered": null,
+                        "type": "img",
+                      },
+                      Object {
+                        "instance": null,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": Array [
+                            "Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.",
+                            <br />,
+                            <br />,
+                            "Afraid at highly months do things on at. Situation recommend objection do intention",
+                            <br />,
+                            "so questions. ",
+                            <br />,
+                            "As greatly removed calling pleased improve an. Last ask him cold feel",
+                            <br />,
+                            "met spot shy want. Children me laughing we prospect answered followed. At it went",
+                            <br />,
+                            "is song that held help face.",
+                          ],
+                          "className": "shop__text",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                          "Afraid at highly months do things on at. Situation recommend objection do intention",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                          "so questions. ",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                          "As greatly removed calling pleased improve an. Last ask him cold feel",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                          "met spot shy want. Children me laughing we prospect answered followed. At it went",
+                          Object {
+                            "instance": null,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {},
+                            "ref": null,
+                            "rendered": null,
+                            "type": "br",
+                          },
+                          "is song that held help face.",
+                        ],
+                        "type": "div",
+                      },
+                    ],
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "line",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="col-lg-4 offset-2"
+                    >
+                      <form
+                        action="#"
+                        className="shop__search"
+                      >
+                        <label
+                          className="shop__search-label"
+                          htmlFor="filter"
+                        >
+                          Looking for
+                        </label>
+                        <SearchPanel
+                          onUpdateSearch={[Function]}
+                        />
+                      </form>
+                    </div>,
+                    <div
+                      className="col-lg-4"
+                    >
+                      <div
+                        className="shop__filter"
+                      >
+                        <div
+                          className="shop__filter-label"
+                        >
+                          Or filter
+                        </div>
+                        <div
+                          className="shop__filter-group"
+                        >
+                          <button
+                            className="shop__filter-btn"
+                            onClick={[Function]}
+                          >
+                            Brazil
+                          </button>
+                          <button
+                            className="shop__filter-btn"
+                            onClick={[Function]}
+                          >
+                            Kenya
+                          </button>
+                          <button
+                            className="shop__filter-btn"
+                            onClick={[Function]}
+                          >
+                            Columbia
+                          </button>
+                        </div>
+                      </div>
+                    </div>,
+                  ],
+                  "className": "row",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <form
+                        action="#"
+                        className="shop__search"
+                      >
+                        <label
+                          className="shop__search-label"
+                          htmlFor="filter"
+                        >
+                          Looking for
+                        </label>
+                        <SearchPanel
+                          onUpdateSearch={[Function]}
+                        />
+                      </form>,
+                      "className": "col-lg-4 offset-2",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "action": "#",
+                        "children": Array [
+                          <label
+                            className="shop__search-label"
+                            htmlFor="filter"
+                          >
+                            Looking for
+                          </label>,
+                          <SearchPanel
+                            onUpdateSearch={[Function]}
+                          />,
+                        ],
+                        "className": "shop__search",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Looking for",
+                            "className": "shop__search-label",
+                            "htmlFor": "filter",
+                          },
+                          "ref": null,
+                          "rendered": "Looking for",
+                          "type": "label",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "class",
+                          "props": Object {
+                            "onUpdateSearch": [Function],
+                          },
+                          "ref": null,
+                          "rendered": null,
+                          "type": [Function],
+                        },
+                      ],
+                      "type": "form",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <div
+                        className="shop__filter"
+                      >
+                        <div
+                          className="shop__filter-label"
+                        >
+                          Or filter
+                        </div>
+                        <div
+                          className="shop__filter-group"
+                        >
+                          <button
+                            className="shop__filter-btn"
+                            onClick={[Function]}
+                          >
+                            Brazil
+                          </button>
+                          <button
+                            className="shop__filter-btn"
+                            onClick={[Function]}
+                          >
+                            Kenya
+                          </button>
+                          <button
+                            className="shop__filter-btn"
+                            onClick={[Function]}
+                          >
+                            Columbia
+                          </button>
+                        </div>
+                      </div>,
+                      "className": "col-lg-4",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": Array [
+                          <div
+                            className="shop__filter-label"
+                          >
+                            Or filter
+                          </div>,
+                          <div
+                            className="shop__filter-group"
+                          >
+                            <button
+                              className="shop__filter-btn"
+                              onClick={[Function]}
+                            >
+                              Brazil
+                            </button>
+                            <button
+                              className="shop__filter-btn"
+                              onClick={[Function]}
+                            >
+                              Kenya
+                            </button>
+                            <button
+                              className="shop__filter-btn"
+                              onClick={[Function]}
+                            >
+                              Columbia
+                            </button>
+                          </div>,
+                        ],
+                        "className": "shop__filter",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "Or filter",
+                            "className": "shop__filter-label",
+                          },
+                          "ref": null,
+                          "rendered": "Or filter",
+                          "type": "div",
+                        },
+                        Object {
+                          "instance": null,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": Array [
+                              <button
+                                className="shop__filter-btn"
+                                onClick={[Function]}
+                              >
+                                Brazil
+                              </button>,
+                              <button
+                                className="shop__filter-btn"
+                                onClick={[Function]}
+                              >
+                                Kenya
+                              </button>,
+                              <button
+                                className="shop__filter-btn"
+                                onClick={[Function]}
+                              >
+                                Columbia
+                              </button>,
+                            ],
+                            "className": "shop__filter-group",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Brazil",
+                                "className": "shop__filter-btn",
+                                "onClick": [Function],
+                              },
+                              "ref": null,
+                              "rendered": "Brazil",
+                              "type": "button",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Kenya",
+                                "className": "shop__filter-btn",
+                                "onClick": [Function],
+                              },
+                              "ref": null,
+                              "rendered": "Kenya",
+                              "type": "button",
+                            },
+                            Object {
+                              "instance": null,
+                              "key": undefined,
+                              "nodeType": "host",
+                              "props": Object {
+                                "children": "Columbia",
+                                "className": "shop__filter-btn",
+                                "onClick": [Function],
+                              },
+                              "ref": null,
+                              "rendered": "Columbia",
+                              "type": "button",
+                            },
+                          ],
+                          "type": "div",
+                        },
+                      ],
+                      "type": "div",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <div
+                    className="col-lg-10 offset-lg-1"
+                  >
+                    <div
+                      className="shop__wrapper"
+                    >
+                      <withRouter(ItemList)
+                        filter=""
+                        getData={[Function]}
+                        term=""
+                      />
+                    </div>
+                  </div>,
+                  "className": "row",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <div
+                      className="shop__wrapper"
+                    >
+                      <withRouter(ItemList)
+                        filter=""
+                        getData={[Function]}
+                        term=""
+                      />
+                    </div>,
+                    "className": "col-lg-10 offset-lg-1",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <withRouter(ItemList)
+                        filter=""
+                        getData={[Function]}
+                        term=""
+                      />,
+                      "className": "shop__wrapper",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "function",
+                      "props": Object {
+                        "filter": "",
+                        "getData": [Function],
+                        "term": "",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": "div",
+                  },
+                  "type": "div",
+                },
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "section",
+        },
+      ],
+      "type": Symbol(react.fragment),
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
