@@ -1,20 +1,53 @@
 import React, {Component} from 'react';
 import Header from '../header';
-import Footer from '../footer';
+// import Footer from '../footer';
 import './coffeePage.css';
 // import {BrowserRouter as Router, Route} from 'react-router-dom';
 import ItemList from '../itemList';
 // import ItemDetails from '../itemDetails';
 import GetService from '../../services/getService';
+import SearchPanel from '../search-panel';
+import itemList from '../itemList/itemList';
+
 
 
 export default class CoffeePage extends Component {
+    constructor(props) {
+        super(props);
+            this.state = {
+                term:''
+            }
+            this.onUpdateSearch = this.onUpdateSearch.bind(this);
+    };
+
+    SearchPost(items, term) {
+        if (term.length === 0) {
+        return items
+        }
+    
+        return items.filter( (item) => {
+            return item.name.indexOf(term) > -1 // если не чего не найдено, будет возвращено -1
+        })
+    }
+
+    filterPost(items, filter) {
+        if (filter === 'like') {
+            return items.filter(item => item.like)
+        } else {
+            return items
+        }
+    }
+
+    onUpdateSearch(term) {
+        this.setState({term})
+        console.log({term});
+    }
+    
 
 	service = new GetService();
 
 	render() {
-
-    return(
+        return(
       <>
       <div className="banner">
         <div className="container">
@@ -59,7 +92,10 @@ export default class CoffeePage extends Component {
                 <div className="col-lg-4 offset-2">
                     <form action="#" className="shop__search">
                         <label className="shop__search-label" htmlFor="filter">Looking for</label>
-                        <input id="filter" type="text" placeholder="start typing here..." className="shop__search-input"/>
+                        {/* <input id="filter" type="text" placeholder="start typing here..." className="shop__search-input"/> */}
+                        <SearchPanel
+                            onUpdateSearch={this.onUpdateSearch}
+                        />
                     </form>
                 </div>
                 <div className="col-lg-4">
@@ -78,10 +114,11 @@ export default class CoffeePage extends Component {
             <div className="row">
                 <div className="col-lg-10 offset-lg-1">
                     <div className="shop__wrapper">
-											<ItemList getData = {this.service.getShop}
-																// name = {'coffeePage'}
+						<ItemList getData = {this.service.getShop}
+                        term = {this.state.term}
+                        // name = {'coffeePage'}
 
-																/>                        
+                        />                        
                     </div>
                 </div>
             </div>

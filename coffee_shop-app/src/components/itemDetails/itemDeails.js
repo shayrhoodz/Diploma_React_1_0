@@ -19,7 +19,7 @@ export default class ItemDetails extends Component {
             <Header />
             </div>
           </div>
-          <h1 className="title-big">Our Coffee</h1>
+          <h1 className="title-big">{arr.name}</h1>
         </div>
       </div>
         <section className="shop">

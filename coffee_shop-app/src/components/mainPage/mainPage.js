@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Header from '../header';
-import Footer from '../footer';
+// import Footer from '../footer';
 import {Link} from 'react-router-dom';
 import './mainPage.css';
 import ItemList from '../itemList';

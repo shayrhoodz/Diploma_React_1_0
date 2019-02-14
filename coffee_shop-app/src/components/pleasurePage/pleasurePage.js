@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Header from '../header';
-import Footer from '../footer';
+// import Footer from '../footer';
 import './pleasurePage.css';
 import ItemList from '../itemList';
 import GetService from '../../services/getService';
